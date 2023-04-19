@@ -1,0 +1,784 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Authenion - Help Center</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/logo.png" rel="icon">
+  <link href="assets/logo.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.gstatic.com" rel="preconnect">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/quill/quill.snow.css" rel="stylesheet">
+  <link href="assets/vendor/quill/quill.bubble.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/simple-datatables/style.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: authenion - v2.5.0
+  * Template URL: https://bootstrapmade.com/authenion-bootstrap-admin-html-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="header fixed-top d-flex align-items-center">
+
+    <div class="d-flex align-items-center justify-content-between">
+      <a href="index.html" class="logo d-flex align-items-center">
+        <img src="assets/img/logo.png" alt="" class="col-logo-top">
+        
+      </a>
+      <i class="bi bi-list toggle-sidebar-btn"></i>
+    </div><!-- End Logo -->
+
+    <div class="search-bar">
+      <form class="search-form d-flex align-items-center" method="POST" action="#">
+        <input type="text" name="query" placeholder="Search" title="Enter search keyword">
+        <button type="submit" title="Search"><i class="bi bi-search"></i></button>
+      </form>
+    </div><!-- End Search Bar -->
+
+    <nav class="header-nav ms-auto">
+      <ul class="d-flex align-items-center">
+
+        <li class="nav-item d-block d-lg-none">
+          <a class="nav-link nav-icon search-bar-toggle " href="#">
+            <i class="bi bi-search"></i>
+          </a>
+        </li><!-- End Search Icon-->
+	      
+	      
+	      <div class="nav">
+		<a href="tables-data.html" class="bi bi-circle"></a>
+		      </div>
+	      <div class= "bi bi-circle" id="tables-nav">
+		Configuration Guide
+	</div>
+
+        
+        <li class="nav-item dropdown">
+
+          <a class="nav-link nav-icon" href="#" data-bs-toggle="dropdown">
+            <i class=></i>
+            <span class=></span>
+          </a><!-- End Messages Icon -->
+
+          <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow messages">
+            <!--<li class="dropdown-header">
+              You have 3 new messages
+              <a href="#"><span class="badge rounded-pill bg-primary p-2 ms-2">View all</span></a>
+            </li> -->
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+
+            <li class="message-item">
+              <a href="#">
+                <img src= alt="" class="rounded-circle">
+               
+                </div>
+              </a>
+            </li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+
+           
+        <li class="nav-item dropdown pe-3">
+
+          <a class="nav-link nav-profile d-flex align-items-center pe-0" href="#" data-bs-toggle="dropdown">
+            <img src="assets/logo.png" alt="img" class="rounded-circle">
+            <span class="d-none d-md-block dropdown-toggle ps-2"></span>
+          </a><!-- End Profile Iamge Icon -->
+
+         
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+
+            <li>
+              <a class="dropdown-item d-flex align-items-center" href="users-profile.html">
+                <i class="bi bi-person"></i>
+                <span></span>
+              </a>
+            </li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+
+            <li>
+              <a class="dropdown-item d-flex align-items-center" href="users-profile.html">
+                <i class="bi bi-gear"></i>
+                <span></span>
+              </a>
+            </li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+
+            <li>
+              <a class="dropdown-item d-flex align-items-center" href="pages-faq.html">
+                <i class="bi bi-question-circle"></i>
+                <span></span>
+              </a>
+            </li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+
+            <li>
+              <a class="dropdown-item d-flex align-items-center" href="#">
+                <i class="bi bi-box-arrow-right"></i>
+                <span></span>
+              </a>
+            </li>
+
+          </ul><!-- End Profile Dropdown Items -->
+        </li><!-- End Profile Nav -->
+
+      </ul>
+    </nav><!-- End Icons Navigation -->
+
+  </header><!-- End Header -->
+
+  <!-- ======= Sidebar ======= -->
+  <aside id="sidebar" class="sidebar">
+
+    <ul class="sidebar-nav" id="sidebar-nav">
+
+      <li class="nav-item">
+        <a class="nav-link " href="index.html">
+          <i class="bi bi-grid"></i>
+          <span>Release Notes</span>
+        </a>
+      </li><!-- End Dashboard Nav -->
+
+      <li class="nav-item">
+        <a class="nav-link collapsed" data-bs-target="#components-nav" data-bs-toggle="collapse" href="#">
+          <i class="bi bi-menu-button-wide"></i><span>System Requirements</span><i class="bi bi-chevron-down ms-auto"></i>
+        </a>
+        <ul id="components-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
+         <li>
+            <a href="components-alerts.html">
+              <i class="bi bi-circle"></i><span>	Supported Operating Systems </span>
+            </a>
+          </li>
+          <li>
+            <a href="components-accordion.html">
+              <i class="bi bi-circle"></i><span>	Linux User requirements in the Authenion Server</span>
+            </a>
+          </li>
+          <li>
+            <a href="components-badges.html">
+              <i class="bi bi-circle"></i><span>Supported Java environment </span>
+            </a>
+          </li>
+          <li>
+            <a href="components-breadcrumbs.html">
+              <i class="bi bi-circle"></i><span>Minimum Hardware requirements </span>
+            </a>
+          </li>
+          <li>
+            <a href="components-buttons.html">
+              <i class="bi bi-circle"></i><span>Recommended Hardware requirements</span>
+            </a>
+          </li>
+          <li>
+            <a href="components-cards.html">
+              <i class="bi bi-circle"></i><span>Port Requirements </span>
+            </a>
+          </li>
+          
+        </ul>
+      </li><!-- End Components Nav -->
+
+      <li class="nav-item">
+        <a class="nav-link collapsed" data-bs-target="#forms-nav" data-bs-toggle="collapse" href="#">
+          <i class="bi bi-journal-text"></i><span>Getting Started</span><i class="bi bi-chevron-down ms-auto"></i>
+        </a>
+        <ul id="forms-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
+          <li>
+            <a href="forms-elements.html">
+              <i class="bi bi-circle"></i><span>Introduction</span>
+            </a>
+          </li>
+          <li>
+            <a href="forms-layouts.html">
+              <i class="bi bi-circle"></i><span>Enterprise Deployement Model</span>
+            </a>
+          </li>
+          <li>
+            <a href="forms-editors.html">
+              <i class="bi bi-circle"></i><span>What can i do with Authenion?</span>
+            </a>
+          </li>
+          <li>
+            <a href="forms-validation.html">
+              <i class="bi bi-circle"></i><span>How does Authenion work?</span>
+            </a>
+          </li> 
+          <li>
+            <a href="forms-editors.html">
+              <i class="bi bi-circle"></i><span>What can I Configure with Authenion?</span>
+            </a>
+          </li>
+          <li>
+            <a href="forms-validation.html">
+              <i class="bi bi-circle"></i><span></span>
+            </a>
+          </li>
+        </ul>
+      </li><!-- End Forms Nav -->
+
+      <li class="nav-item">
+        <a class="nav-link collapsed" data-bs-target="#tables-nav" data-bs-toggle="collapse" href="#">
+          <i class="bi bi-layout-text-window-reverse"></i><span>Installation</span><i class="bi bi-chevron-down ms-auto"></i>
+        </a>
+        <ul id="tables-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
+         <li>
+            <a href="#pre-reqs section">
+              <i class="bi bi-circle"></i><span>Pre-requisites</span>
+            </a>
+          </li>
+          <li>
+            <a href="#install-authenion section">
+		    <i class="bi bi-circle"></i><span>Install Authenion</span>
+            </a>
+          </li> 
+           <li>
+            <a href="#setup section">
+              <i class="bi bi-circle"></i><span>Setup Authenion</span>
+            </a>
+          </li>
+          <li>
+            <a href="#start-stop section">
+              <i class="bi bi-circle"></i><span>Start & Stop Services</span>
+            </a>
+          </li> 
+           <li>
+            <a href="#health-check section">
+              <i class="bi bi-circle"></i><span>Authenion Health-check</span>
+            </a>
+          </li>
+          <li>
+            <a href="#idp-cert section">
+              <i class="bi bi-circle"></i><span>Install Identiy Provider's certificate into Authenion trust store</span>
+            </a>
+          </li> 
+           <li>
+            <a href="#ssl-cert section">
+              <i class="bi bi-circle"></i><span>Install SSL Certificate for Authenion</span>
+            </a>
+          </li>
+          
+        </ul>
+      </li><!-- End Tables Nav -->
+
+      <li class="nav-item">
+        <a class="nav-link collapsed" data-bs-target="#charts-nav" data-bs-toggle="collapse" href="#">
+          <i class="bi bi-bar-chart"></i><span>Authenion UI Navigation & Configurations</span><i class="bi bi-chevron-down ms-auto"></i>
+        </a>
+        <ul id="charts-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
+          <li>
+            <a href="charts-chartjs.html">
+              <i class="bi bi-circle"></i><span>Dashboard/applications</span>
+            </a>
+          </li>
+         <li>
+            <a href="charts-apexcharts.html">
+              <i class="bi bi-circle"></i><span>Getting Config data into the UI</span>
+            </a>
+          </li>
+          <li>
+            <a href="charts-echarts.html">
+              <i class="bi bi-circle"></i><span>OIDC Configuration</span>
+            </a>
+          </li>
+            </a>
+          </li>
+          <li>
+            <a href="charts-echarts.html">
+              <i class="bi bi-circle"></i><span>Sidebar</span>
+            </a>
+          </li>
+       <li>
+            <a href="charts-chartjs.html">
+              <i class="bi bi-circle"></i><span>Applications</span>
+            </a>
+          </li>
+         <li>
+            <a href="charts-apexcharts.html">
+              <i class="bi bi-circle"></i><span>Virtual Servers</span>
+            </a>
+          </li>
+          <li>
+            <a href="charts-echarts.html">
+              <i class="bi bi-circle"></i><span>Application Hosts</span>
+            </a>
+          </li>
+            </a>
+          </li>
+          <li>
+            <a href="charts-echarts.html">
+              <i class="bi bi-circle"></i><span>Header Mapping</span>
+            </a>
+          </li>
+   <li>
+            <a href="charts-chartjs.html">
+              <i class="bi bi-circle"></i><span>Resources</span>
+            </a>
+          </li>
+         <li>
+            <a href="charts-apexcharts.html">
+              <i class="bi bi-circle"></i><span>Authenion Status</span>
+            </a>
+          </li>
+          <li>
+            <a href="charts-echarts.html">
+              <i class="bi bi-circle"></i><span>Export</span>
+            </a>
+          </li>
+            </a>
+          </li>
+          <li>
+            <a href="charts-echarts.html">
+              <i class="bi bi-circle"></i><span>Sync</span>
+            </a>
+          </li>
+        </ul>
+      </li><!-- End Charts Nav -->
+
+      <li class="nav-item">
+        <a class="nav-link collapsed" data-bs-target="#icons-nav" data-bs-toggle="collapse" href="#">
+          <i class="bi bi-gem"></i><span>Configure your Identiy Provider</span><i class="bi bi-chevron-down ms-auto"></i>
+        </a>
+        <ul id="icons-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
+          <li>
+            <a href="icons-bootstrap.html">
+              <i class="bi bi-circle"></i><span>PingFederate as the Token Provider</span>
+            </a>
+          </li>
+          <li>
+            <a href="icons-remix.html">
+              <i class="bi bi-circle"></i><span>Microsoft Azure Active Directory as the Token Provider</span>
+            </a>
+          </li>
+          
+        </ul>
+      </li><!-- End Icons Nav -->
+
+      <li class="nav-heading"></li>
+
+      
+
+      
+      </li><!-- End Blank Page Nav -->
+
+    </ul>
+
+  </aside><!-- End Sidebar-->
+
+  <main id="main" class="main">
+
+    <div class="pagetitle">
+      <h2><b><p style="font-size: 2.5rem">Authenion</p></b></h2>
+      <nav>
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="index.html"></a></li>
+		
+		  <!--<li class="breadcrumb-item active"></li>-->
+        </ol>
+      </nav>
+    </div><!-- End Page Title -->
+
+    <section class="section dashboard">
+      <div class="row">
+
+        <!-- Left side columns -->
+        <div class="col-lg-8">
+          <div class="row"> 
+             <div>
+				<h4><p style="font-size: 0.9rem; color: #636161">Created : <script>  document.write(new Date().toLocaleDateString()); </script> </p> </h4>
+				<p class="col-para"> Authenion enables single sign-on (SSO) solution for Oracle applications. Authenion integrates with standard OpenID Connect providers in the market such as PingFederate, PingOne, Azure, etc., for authentication related events and on the other end, it connects with the Oracle apps to securely transfer the SSO related details to the applications. Authenion will be the access management layer having PingFederate as the Identity Provider.</p> <br>
+
+				<!-- ### RELEASE NOTES ### -->
+                <h4><b>Release Notes</b></h4>
+                <p class="col-para">The release notes summarize the changes in the current and previous product features. The Authenion enables a secure Single Sign-On (SSO) solution for Oracle proprietary applications. The product uses PingFederate (or) any other standard OpenID Connect provider as Identity Provider for authentication related events</p><br>
+              </div>
+			
+			<!-- ### SYSTEM REQUIREMENTS ### -->
+            <div>
+                <h4><b>System Requirements</b></h4>
+				<p class="col-para">The following requirements should be met for Authenion deployment and configuration. Authenion qualifies & certifies the following configurations that they are compatible with the product. Authenion supports IPv4 addressing. </p>
+				<ul class="col-para-bulletpoints">
+                <li><p class="col-sub-headings-sub"><b>Supported Operating Systems</b></p></li>
+					<p class="col-para-bulletpoints">
+					&emsp;▪	Red Hat Enterprise Linux 7 & above<br>
+					&emsp;▪	CentOS 7 & above<br>
+					&emsp;▪	Oracle Enterprise Linux 7 & above <br>
+					</p>
+				<li><p class="col-sub-headings-sub"><b>Linux User requirements in the Authenion Server</b></p></li>
+					<p class="col-para-bulletpoints">
+					&emsp;▪	Create a Linux user in the name of ‘appuser’ to execute Authenion scripts.<br>
+					&emsp;▪	The 'appuser' should have Read/Write privileges to the Authenion deployment package.<br>
+					&emsp;▪ Authenion should be installed in the ‘/home/appuser’ directory.<br>
+					</p>
+				<li><p class="col-sub-headings-sub"><b>Supported Java environment</b></p></li>
+					<p class="col-para-bulletpoints">
+					&emsp;▪	OpenJDK 11<br>
+					&emsp;▪	Oracle Java SE Development Kit 11 LTS / Oracle Java SE Runtime Environment (Server JRE) 8<br>
+					</p>
+				<li><p class="col-sub-headings-sub"><b>Minimum Hardware requirements</b></p></li>
+					<p class="col-para-bulletpoints">
+					&emsp;▪	2 CPU/Cores recommended<br>
+					&emsp;▪	2 GB of RAM<br>
+					&emsp;▪	15 GB available space<br>
+					</p>
+				<li><p class="col-sub-headings-sub"><b>Recommended Hardware requirements</b></p></li>
+					<p class="col-para-bulletpoints">
+					&emsp;▪	4 CPU/Cores recommended<br>
+					&emsp;▪	4 GB of RAM<br>
+					&emsp;▪	30 GB available space<br>
+					</p>
+					<br>
+				</ul>
+			</div>
+			
+			<!-- ### GETTING STARTED ### -->
+			<div>
+                <h4><b>Getting Started</b></h4><br>
+				
+				<p class="col-sub-headings"><b>1. Enterprise Deployment Model</b></p>
+				<p class="col-para">Authenion supports a Gateway architecture for its protected Oracle applications. In this model, the traffic is initially directed to Authenion. Authenion grants or denies access by redirecting the traffic to Authentication providers.</p>
+				<ul class="col-para-bulletpoints">
+				<li><p class="col-para-bulletpoints">This deployment model can be set up quickly without disrupting the applications. The Authenion will not be installed on separate servers from the application web servers.</p></li>
+				<li><p class="col-para-bulletpoints">With the fewer component architecture, it is easy to identify issues and troubleshoot. All transactions are logged, and it is easier to view any specific events.</p></li>
+				</ul>
+				<img src="assets/img/deploymentmodel.png" alt="" class="col-images-ui"><br><br>
+				
+				<br><p class="col-sub-headings"><b>2. What can I do with Authenion?</b></p>
+				<p class="col-para">Authenion is a light-weight product that allows you to enable a secure Single Sign-On solution for your Oracle Enterprise applications.</p>
+				<p class="col-para">The main functionalities are:</p>
+				<ul class="col-para-bulletpoints">
+				<li><p class="col-para-bulletpoints">Use Authenion to protect Oracle applications</p></li>
+				<li><p class="col-para-bulletpoints">Connect Authenion with external OpenID Connect providers for authentication</p></li>
+				<li><p class="col-para-bulletpoints">You can manage sessions for the protected applications and use OAuth scopes to send user data to applications</p></li>
+				</ul>
+				<br>
+				
+				<p class="col-sub-headings"><b>3. How does Authenion work?</b></p>
+				<p class="col-para">Authenion acts as the gateway to your Oracle Enterprise Applications and capture user requests & delegate it to your Identity Provider (IdP) for authentication.</p>
+				
+				<p class="col-sub-headings-sub"><b>Session Initiation</b></p>
+				<ul class="col-para-bulletpoints">
+				<li><p class="col-para-bulletpoints">Using advanced & secured integration standards, Authenion securely connects with your Identity Provider using OAuth/OIDC protocols. This allows Authenion protected Oracle Applications requests to be delegated to your centralized Identity Provider in your organization.</p></li>
+				<li><p class="col-para-bulletpoints">The Identity Provider will be responsible for challenging the user requests with strong authentication schemes. The Identity Provider will also be responsible for collecting the user attributes and send it to Authenion through OAuth/OIDC tokens for further processing such as session establishment & granting user-access. </p></li>
+				</ul>
+				<img src="assets/img/sessioninitiation.png" alt="" class="col-images-ui"><br><br>
+				
+				<p class="col-sub-headings-sub"><b>Processing Steps</b></p>
+				<ol class="col-para-bulletpoints">
+				<li><p class="col-para-bulletpoints">&nbsp;User request access for Oracle Applications</p></li>
+				<li><p class="col-para-bulletpoints">&nbsp;Authenion checks for the user session, and it redirects the user’s request to IdP for authentication</p></li>
+				<li><p class="col-para-bulletpoints">&nbsp;IdP authenticates the user using the adapters and against a data store configured to it</p></li>
+				<li><p class="col-para-bulletpoints">&nbsp;Authenion will receive the authenticated user’s attributes and parse the attributes into HTTP-Headers and send it to the target application</p></li>
+				<li><p class="col-para-bulletpoints">&nbsp;IdP authenticates the user using the adapters and against a data store configured to it</p></li>
+				<li><p class="col-para-bulletpoints">&nbsp;Oracle Applications will retrieve & validate the HTTP-Headers from Authenion and grant access to users based on their roles and responsibilities</p></li>
+				</ol>
+				<br>
+				
+				<p class="col-sub-headings"><b>4. What can I Configure with Authenion?</b></p>
+				<p class="col-para">Authenion includes a wide range of configuration features from its user interface (administrative console). The following are the configuration we can perform in Authenion through its UI.</p>
+				
+						<div class="div-table">
+						 <div class="div-table-row">
+							<div class="div-table-col1">Applications</div>
+							<div class="div-table-col2">Application you are protecting with Authenion</div>
+							</div>
+						<div class="div-table-row">
+							 <div class="div-table-col1">OIDC Configurations</div>
+							<div  class="div-table-col2">Openid Connect provider / Identity Provider setup</div>
+						</div>
+						<div class="div-table-row">
+							<div class="div-table-col1">Virtual Servers</div>
+							<div class="div-table-col2">Application domain or hostname for a gateway architecture</div>
+							</div>
+						<div class="div-table-row">
+							<div class="div-table-col1">Application Hosts</div>
+							<div class="div-table-col2">Target Applications or backend application server details</div>
+							</div>
+						<div class="div-table-row">
+							<div class="div-table-col1">Resources</div>
+							<div class="div-table-col2">URI components of the protected applications</div>
+							</div>
+						<div class="div-table-row">
+							<div class="div-table-col1">Header Mapping</div>
+							<div class="div-table-col2">HTTP-Headers (user data) that needs to be forwarded to the protected applications</div>
+							</div>
+						<div class="div-table-row">
+							<div class="div-table-col1">Authenion Instance</div>
+							<div class="div-table-col2">Authenion plug-in responsible for transferring the configuration data from UI to authenion server and vice versa. The default port is ‘8090’ & uses ‘https’.</div>
+							</div>
+						</div>
+				<br><br><br>
+			</div>
+			
+			<!-- ### INSTALLATION ### -->
+			<div>
+				<!-- <a name="install-authenion section"></a> -->
+                <h4><b>Installation</b></h4>
+				<p class="col-para">This section provides instructions for installing, configuring & starting/stopping Authenion. Authenion can be installed on the Linux servers. For the System requirements, please visit System Requirements section.</p>
+				
+				<a name="pre-reqs section"></a>
+				<p class="col-sub-headings"><b>1. Pre-requisites</b></p>
+				<ul class="col-para-bulletpoints">
+				  <li><p class="col-para-bulletpoints">Ensure the System Requirements are met</p></li>
+				  <li><p class="col-para-bulletpoints">Install a supported Java runtime</p></li>
+				  <li><p class="col-para-bulletpoints">The system environment variable JAVA_HOME must be set representing the location of your Java installation</p></li><br>
+				</ul>
+				
+				<a name="install-authenion section"></a>
+				<p class="col-sub-headings"><b>2. Install Authenion</b></p>
+				<ol class="col-para-bulletpoints">
+				  <li><p class="col-para-bulletpoints">Execute the below steps to install Authenion in your server</p></li>
+				  <li><p class="col-para-bulletpoints">Request or download the authenion-2.0.zip distribution package and a valid license from the Authenion support portal or by contacting your account manager in LikeMinds</p></li>
+				  <li><p class="col-para-bulletpoints">Install authenion by unzipping the authenion-2.0.zio into the “/home/appuser” directory in your linux</p></li>
+				  <li><p class="col-para-bulletpoints">Authenion file system after extracting</p></li>
+				  <li><p class="col-para-bulletpoints">Copy the obtained license file “authenion.lic” to the Authenion server and place it in the “authenion_install_dir/config” directory</p></li>
+				</ol>
+				<img src="assets/img/authenion-folder-structure.png" alt="" class="col-folder-structure"><br><br>
+				
+				<a name="setup section"></a>
+				<p class="col-sub-headings"><b>3. Setup Authenion</b></p>
+				<ol class="col-para-bulletpoints">				
+					<li><p class="col-para-bulletpoints">Navigate to the following directory in the Authenion server. <authenion_install_dir>/bin</li>
+					<img src="assets/img/txt-install-dir.png" alt="" class="col-images-texts"><br><br>
+					<li><p class="col-para-bulletpoints">Execute the following command to grant permission</li>
+					<img src="assets/img/txt-chmod.png" alt="" class="col-images-texts"><br><br>
+					<li><p class="col-para-bulletpoints">Run the setup command </li>
+					<img src="assets/img/txt-setup.png" alt="" class="col-images-texts"><br><br>
+					<li><p class="col-para-bulletpoints">Read and accept the Software Terms & Conditions. This will complete the setup process</li>
+					<p class="col-para-notes"><i> Note: In case if the process fails to complete the setup, you can re-run the setup script to complete it</i></p>
+				</ol><br>
+			  
+				<a name="start-stop section"></a>
+				<p class="col-sub-headings"><b>4. Start & Stop Services</b></p>
+				<ol class="col-para-bulletpoints">
+				  <li><p class="col-para-bulletpoints">To Start the Authenion instance, navigate to the “<authenion_install_dir>/bin” directory and run the ‘startinstance.sh’ command. </li>
+				  <img src="assets/img/txt-start.png" alt="" class="col-images-texts-startstop"><br><br>
+				  <li><p class="col-para-bulletpoints">To Stop the Authenion instance, run the ‘stop-instance.sh’ command. </li>
+				  <img src="assets/img/txt-stop.png" alt="" class="col-images-texts-startstop"><br><br>
+				  <li><p class="col-para-bulletpoints">Check the status of the Authenion application by executing the ‘status.sh’ command. </li>
+				</ol><br>
+
+				<a name="health-check section"></a>
+				<p class="col-sub-headings"><b>5. Authenion Health-check</b></p>
+				
+				<a name="idp-cert section"></a>
+				<p class="col-sub-headings"><b>6. Install Identity Provider’s Certificate into Authenion Trust Store</b></p>
+				
+
+				<p class="ssl-cert section"><b>7. Install SSL Certificates for Authenion</b></p>
+				
+				
+				
+				
+				
+			</div> <!-- ### INSTALLATION ### -->
+			  
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		</div> <!-- div classass = row -->
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			</div> <!-- class="col-lg-8" -->
+			
+			
+
+		     
+
+
+		</div>	  
+		  
+		  
+		  
+		  
+           
+            <h4>STATR &STOP AUTHENION</h4>
+
+            <h4>AUTHENION HEALTH-CHECK</h4>
+            <p>To check the Authenion status through heartbeat URL, enter the following URL in the browser. This can be used for monitoring the Authenion instance status. </p>
+            <h4>Install Identity Provider’s Certificate into Authenion Trust Store </h4>
+            <p>The following steps will guide you to import the Identity provider’s certificate (PingFederate) into the Authenion trust store. 
+1.	Export the SSL Certificate from the Identity Provider (PingFederate, PingOne, AzureAD, etc.,) and place the certificate anywhere inside “<authenion_install_dir>” in the Authenion server. 
+2.	Run the following command in the Authenion server to install the Identity Provider’s certificate
+</p>
+              <h4>Install SSL Certificates for Authenion (Optional) </h4>
+            <p>Authenion allows you to install your organization’s signed certificates. The certificates should be in the .crt & .key files format. To place your organization’s cert in Authenion, follow the steps below. 
+1.	If you have the certificate & private key in pkcs format, move the certificate to the Authenion server & run the following commands. 
+ 
+ 
+2.	Copy the .crt & .key extracted in the previous step and place it in “<authenion_install_dir>/server/conf/certs” directory. 
+3.	The above steps can be repeated during the Authenion certificate renewal process. 
+</p>
+		  <h4>AUTHENION UI, NAVIGATION & CONFIGURATION</h4>  
+		  <p>
+This section describes the UI of Authenion (Admin Console) and its navigation and provides steps for accessing and configuring it.  
+Accessing the Authenion UI (Administrative console) 
+https://launch.authenion.com  
+ 
+</p>
+		  <h4>dashboard/application</h4>
+		  <p>The Dashboard lets you view, create, or modify applications. The total protected applications will be displayed in the Dashboard Application’s tab. It also lets you access the OIDC Configuration next to the Applications tab and access the sidebar menu for configurations. The Dashboard also lets you access the OIDC Configuration page which is next to the Application’s tab. </p>
+
+		  <h4>IMPORT-GETTING CONFIG DATA INTO THE UI</h4>
+		  <p>The Import button in the Dashboard page lets you get the data into the UI. 
+
+The Import page has two operations: 
+</p>
+		  
+		  <ol>
+  <li>Import Function: The Import function is used to get the data from your Authenion Server. It automatically 
+retrieves all the Authenion config data and makes it available in the Authenion UI. It uses the Authenion Instance plugin running in the Authenion server. 
+</li>
+  <li>Upload: The Upload operation is used to load the data from your local file system into the UI manually 
+through any previously extracted configs. 
+</li>
+			  <h2>GETTING CONFIG DATA</h2>
+			 
+  <li>For first time installation & configuration of Authenion, skip this step and continue with section 5.1 – OIDC Configuration. </li>
+  <li>If you have Authenion server up & running  already, you can bring the configuration data into the UI through the Import function</li>
+  <li>Click Import in the Authenion Dashboard. </li>
+  <li>In the Import page, enter the detail for Authenion Instance.  For example, authenion.example.com </li>	
+	<li>Click Import. </li>
+  <li>This will bring your Authenion configuration data from authenion server to the UI. </li>		  
+			  
+</ol>
+		  
+		  <h4>OIDC CONFIGURATION</h4>
+		  <p>The OIDC configuration page allows you to connect with your Identity Provider / OIDC Token Provider. This configuration includes details such as Token Providers OAuth/OIDC endpoints, Authenion Client registration details, Claims to get from the Token Provider. It includes additional configuration for Authenion such as Authenion Instance, Domain & Session duration configurations. 
+		  </p>
+		  <h4>openid connect provider-settings</h4>
+		  <ol>
+  <li>Authorization URL  	- 	https://idp-example.com/authorize </li>
+  <li>Token URL 	 	- 	https://idp-example.com/token </li>
+  <li>Logout URL 	 	- 	https://idp-example.com/idp/logout </li>
+			  <li>JWKS URL 	 	- 	https://idp-example.com/jwks </li>
+  <li>Issuer 	 	 	- 	https://idp-example.com </li>
+  <li>UserInfo URL 	 	- 	https://idp-example.com/idp/userinfo </li>
+			  <li>Audience  	 	- 	authenion </li>
+  <li>Client ID  	 	- 	<Registered client_id from your IdP> </li>
+  <li>Client Secret 	 	- 	client_secret value for your client_id </li>
+			  <li>Scope 	 	 	- 	openid (Multiple scopes can be added) </li>
+  <li>Claims 	 	 	- 	Claims from Identity Provider </li>
+  <li>Authenion Instances 	- 	https://<authenion.example.com >:8090 </li>
+			  
+</ol>
+		  <h4>sidebar</h4>
+		  <ol>
+  <li>application</li>
+  <li>virtual server</li>
+  <li>application</li>
+			   <li>header mappling</li>
+  <li>resources</li>
+  <li>authenion status</li>
+			  <li>sync</li>
+  <li>export</li>
+  
+			  
+</ol>
+		  
+		  
+  
+		  <h4>applications</h4>
+		  <p>Applications represent the protected Oracle applications to which the user requests are sent. Each application will have a dedicated entry in the Dashboard/Applications tab. Applications are configured with Virtual Servers, Resources, Header Mappings & corresponds to a single Application Host (target application/backend server). Applications in Authenion can be configured with both protected and unprotected (excluded) resources. Authentication requirements will be set for the protected resources in an application. 
+
+</p>
+		  <h2>adding an application</h2>
+		  <p>Adding a protected application in Authenion has the following pre-requisites. Complete the setup for the below configurations before you create a new application
+		  </p>
+		  
+            
+
+        
+             
+
+         
+
+           
+         
+
+        </div><!-- End Right side columns -->
+
+      </div>
+    </section>
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer" class="footer">
+    <div class="copyright">
+      &copy; Copyright <strong><span>NiceAdmin</span></strong>. All Rights Reserved
+    </div>
+    <div class="credits">
+      <!-- All the links in the footer should remain intact. -->
+      <!-- You can delete the links only if you purchased the pro version. -->
+      <!-- Licensing information: https://bootstrapmade.com/license/ -->
+      <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/nice-admin-bootstrap-admin-html-template/ -->
+      Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+    </div>
+  </footer><!-- End Footer -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/apexcharts/apexcharts.min.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/chart.js/chart.umd.js"></script>
+  <script src="assets/vendor/echarts/echarts.min.js"></script>
+  <script src="assets/vendor/quill/quill.min.js"></script>
+  <script src="assets/vendor/simple-datatables/simple-datatables.js"></script>
+  <script src="assets/vendor/tinymce/tinymce.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
