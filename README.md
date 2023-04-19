@@ -1,1 +1,1 @@
-# shan-likeminds-eik.io
+# likeminds.github.io
